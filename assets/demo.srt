@@ -1,0 +1,15 @@
+1
+00:00:00,000 --> 00:00:07,000
+Inspect a normal reference
+The app displays a synthetic recording, waveform, spectrum and recording-quality checks.
+
+2
+00:00:07,000 --> 00:00:14,000
+Compare an anomalous sample
+An added spectral component changes the anomaly score. A transparent baseline is compared with Isolation Forest.
+
+3
+00:00:14,000 --> 00:00:21,000
+Test changed background noise
+A noise-shift sample probes sensitivity. These results are synthetic and do not identify real machine faults.
+

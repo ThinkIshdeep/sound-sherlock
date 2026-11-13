@@ -1,0 +1,11 @@
+[
+  {
+    "id": "sound-sherlock",
+    "name": "Sound Sherlock",
+    "category": "Audio anomaly detection",
+    "tagline": "Listen beyond normal. Inspect what changed.",
+    "accent": "#b1d7b7",
+    "number": "09",
+    "module": "audio"
+  }
+]

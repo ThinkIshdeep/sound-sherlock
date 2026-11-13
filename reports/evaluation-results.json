@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "project": "sound-sherlock",
+      "status": "passed",
+      "seconds": 0.7943283459999293,
+      "evaluation": {
+        "detector": "spectral_energy_baseline",
+        "auroc": 1.0,
+        "average_precision": 0.9999999999999998,
+        "false_positive_rate": 0.3111111111111111,
+        "recall": 1.0,
+        "isolation_forest": {
+          "auroc": 0.7135802469135802,
+          "false_positive_rate": 0.03333333333333333,
+          "recall": 0.06666666666666667
+        },
+        "test_recordings": 180,
+        "threshold": 0.0275065585965067,
+        "note": "Synthetic held-out recordings with changed noise. The default spectral baseline is compared with Isolation Forest, not hidden behind it. No real-device validation is bundled."
+      },
+      "additional": {}
+    }
+  ]
+}
